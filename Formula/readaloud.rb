@@ -3,6 +3,9 @@ class Readaloud < Formula
 
   desc "Turn a web article, HTML file, or PDF into a listenable audio file"
   homepage "https://github.com/Nornchan/readaloud"
+  # sha256, on every version bump, is reproduced with:
+  #   curl -sL https://github.com/Nornchan/readaloud/archive/refs/tags/vX.Y.Z.tar.gz \
+  #     | shasum -a 256
   url "https://github.com/Nornchan/readaloud/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "fbc7e32c151a1334e8418f773009a720b09a0f85f2bcf47aa830c561a141749b"
   license "MIT"
