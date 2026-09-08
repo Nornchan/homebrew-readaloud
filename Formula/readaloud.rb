@@ -3,8 +3,8 @@ class Readaloud < Formula
 
   desc "Turn a web article, HTML file, or PDF into a listenable audio file"
   homepage "https://github.com/Nornchan/readaloud"
-  url "https://github.com/Nornchan/readaloud/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "2c5922e8ca142ad008925ada53a9d07bb2308f307c69117a8bbf43252dfb4858"
+  url "https://github.com/Nornchan/readaloud/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "fbc7e32c151a1334e8418f773009a720b09a0f85f2bcf47aa830c561a141749b"
   license "MIT"
 
   # numpy's meson-python build needs cmake and ninja on PATH at build time,
