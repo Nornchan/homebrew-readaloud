@@ -1,18 +1,26 @@
-# Nornchan Readaloud
+# homebrew-readaloud
 
-## How do I install these formulae?
+Homebrew tap for [readaloud](https://github.com/Nornchan/readaloud) — turns
+a web article, HTML file, or PDF into a listenable audio file using a local
+neural TTS engine (Kokoro-82M via onnxruntime). No API key, no network
+after the model's one-time download.
 
-`brew install nornchan/readaloud/<formula>`
+## Install
 
-Or `brew tap nornchan/readaloud` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "nornchan/readaloud"
-brew "<formula>"
 ```
+brew install nornchan/readaloud/readaloud
+```
+
+Apple Silicon only — see the `arch` dependency note in
+[`Formula/readaloud.rb`](Formula/readaloud.rb) for why (onnxruntime ships
+no Intel-macOS build).
 
 ## Documentation
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+`readaloud --help`, or the main repo's
+[README](https://github.com/Nornchan/readaloud#readme) and
+[SPEC.md](https://github.com/Nornchan/readaloud/blob/main/SPEC.md) for the
+full design and build history.
+
+For Homebrew itself: `brew help`, `man brew`, or
+[Homebrew's documentation](https://docs.brew.sh).
